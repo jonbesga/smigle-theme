@@ -2,8 +2,9 @@ html {
   overflow-y: scroll
 }
 :root {
-  --bgcolor: white;
-  --fontcolor: #444;
+  --bgcolor: #f8f9fa;
+  --dimcolor: #eee;
+  --fontcolor: #000;
   --linkcolor: #00e;
   --visitedcolor: #551a8b;
   --precolor: #fff;
@@ -11,8 +12,9 @@ html {
 }
 @media (prefers-color-scheme: dark) {
   :root {
-     --bgcolor: black;
-     --fontcolor: white;
+     --bgcolor: #222;
+     --dimcolor: #333;
+     --fontcolor: #ddd;
      --linkcolor: #5bf;
      --visitedcolor: #ae5ee0;
      --precolor: #fff;
@@ -22,6 +24,7 @@ html {
 body {
   color: var(--fontcolor);
   background: var(--bgcolor);
+  margin: 0;
 }
 a {
   text-decoration: none;

@@ -1,4 +1,4 @@
-body {
+#root {
   font-family: Iosevka, monospace;
   max-width: 750px;
   margin: 0 auto;
@@ -35,7 +35,7 @@ header nav {
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  body {
+  #root {
     margin-top: 25px;
   }
   #brand {
