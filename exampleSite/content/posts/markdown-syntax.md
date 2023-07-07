@@ -1,6 +1,7 @@
 ---
 author: Hugo Authors
 title: Markdown Syntax Guide
+subtitle: A more convenient way writing HTML
 date: 2021-01-15
 description: >-
   Sample article showcasing basic Markdown syntax and formatting for HTML
