@@ -5,7 +5,7 @@ theme: smigle
 themesDir: ../.. # Only needed for running the example site
 title: Blog Title
 menu:
-  main:
+  main: # Change menu as needed
     - identifier: home
       name: Home
       url: /
@@ -26,6 +26,10 @@ menu:
       name: Tags
       url: /tags/
       weight: 5
+    - identifier: rss
+      name: RSS
+      url: /index.xml
+      weight: 6
 params:
   abbrDateFmt: "Jan 2"
   author: "Blog Author"
